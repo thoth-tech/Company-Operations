@@ -200,7 +200,7 @@ repository.
 
 | Project Member       | Role         | Responsibilities                                                                       |
 | -------------------- | ------------ | -------------------------------------------------------------------------------------- |
-| Onyedikachi Okorie   | Product Lead | Organize meeting, create technical documents, assign tasks to team members, and so on. |
+| Onyedikachi Okorie   | Product Lead | Organise meeting, create technical documents, assign tasks to team members, and so on. |
 | Quinn Curtis         | Team Member  | Work on assigned cards on Trello                                                       |
 | Aris Danielle Ilarde | Team Member  | Work on assigned cards on Trello                                                       |
 
@@ -528,14 +528,14 @@ but can be used for C++, C#, Python, and Pascal.
 | Project Member  | Role         | Responsibilities                     |
 | --------------- | ------------ | ------------------------------------ |
 | Phil Williams   | Product Lead | Team management, Code, Documentation |
-| Loliwe Loliwe   | Team member  | Code,Documentation                   |
-| Coskun Kilnic   | Team member  | Code,Documentation                   |
-| Norman Harty    | Team member  | Code,Documentation                   |
-| Riley Oussoren  | Team member  | Code,Documentation                   |
-| Harney Halls    | Team member  | Code,Documentation                   |
-| Norman Harty    | Team member  | Code,Documentation                   |
-| Ro-Wern Ong     | Team member  | Code,Documentation                   |
-| Ashley Thompson | Team member  | Code,Documentation                   |
-| Kartik Kaushik  | Team member  | Code,Documentation                   |
-| Jason Kingsbury | Team member  | Code,Documentation                   |
-| Aditya Parmar   | Team member  | Code,Documentation                   |
+| Loliwe          | Team member  | Code,Documentation                   |
+| Coskun Kilnic   | Team member  | Code, Documentation                  |
+| Norman Harty    | Team member  | Code, Documentation                  |
+| Riley Oussoren  | Team member  | Code, Documentation                  |
+| Harney Halls    | Team member  | Code, Documentation                  |
+| Norman Harty    | Team member  | Code, Documentation                  |
+| Ro-Wern Ong     | Team member  | Code, Documentation                  |
+| Ashley Thompson | Team member  | Code, Documentation                  |
+| Kartik Kaushik  | Team member  | Code, Documentation                  |
+| Jason Kingsbury | Team member  | Code, Documentation                  |
+| Aditya Parmar   | Team member  | Code, Documentation                  |
