@@ -528,7 +528,7 @@ but can be used for C++, C#, Python, and Pascal.
 | Project Member  | Role         | Responsibilities                     |
 | --------------- | ------------ | ------------------------------------ |
 | Phil Williams   | Product Lead | Team management, Code, Documentation |
-| Loliwe          | Team member  | Code,Documentation                   |
+| Loliwe          | Team member  | Code, Documentation                   |
 | Coskun Kilnic   | Team member  | Code, Documentation                  |
 | Norman Harty    | Team member  | Code, Documentation                  |
 | Riley Oussoren  | Team member  | Code, Documentation                  |
