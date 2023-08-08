@@ -2,8 +2,6 @@
 title: Example Markdown Document
 ---
 
-# Example Markdown Document
-
 Hello! Welcome to this example Markdown documentation for Docusaurus!
 
 ## Front Matter
@@ -31,20 +29,18 @@ Markdown text with [links](./hello.md)
 Headings are creating using the # character to identify heading levels.
 
 ```md
-# Heading 1
 
 ## Heading 2
 
-###### Heading 6
+### Heading 3
+
 ```
 
 This creates:
 
-# Heading 1
-
 ## Heading 2
 
-###### Heading 6
+### Heading 3
 
 Headings also allow for easy direct linking to certain parts of a document, with 'Heading 6' for
 example allowing you to specify `www.mysite.com/docs/this-document` to
@@ -138,11 +134,11 @@ can be provided as a block or inline.
 
 Blocks require specifying the code language, and can include a block title:
 
-    ```md title="welcome.md"
-    # Welcome!
+```md title="welcome.md"
+# Welcome!
 
-    Weclome to this markdown document!
-    ```
+Weclome to this markdown document!
+```
 
 ```md title="welcome.md"
 # Welcome
@@ -163,23 +159,25 @@ This can be found in `mysite/docs/welcome.md`.
 Typical with knowledge base platforms, Docusaurus includes a special syntax to create admonitions
 and callouts:
 
-    :::tip Tip
+```md
+:::tip Tip
 
-    This is a tip to help you out.
+This is a tip to help you out.
 
-    :::
+:::
 
-    :::caution Caution
+:::caution Caution
 
-    Be cautious around this item.
+Be cautious around this item.
 
-    :::
+:::
 
-    :::danger Dangerous
+:::danger Dangerous
 
-    This action is dangerous.
+This action is dangerous.
 
-    :::
+:::
+```
 
 :::tip Tip
 
@@ -226,23 +224,4 @@ This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 ```
 
-export const Highlight = ({ children, color }) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: "20px",
-      color: "#fff",
-      padding: "10px",
-      cursor: "pointer",
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`);
-    }}
-  >
-    {children}{" "}
-  </span>
-);
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+Try it for yourself!
