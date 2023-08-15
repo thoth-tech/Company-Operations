@@ -16,6 +16,11 @@ export default defineConfig({
 					
 				},
 				{
+					label: 'Teams and Leadership',
+					autogenerate: { directory: 'teams-and-leadership'},
+					
+				},
+				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
