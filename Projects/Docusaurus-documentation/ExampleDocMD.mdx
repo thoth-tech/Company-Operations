@@ -1,0 +1,227 @@
+---
+title: Example Markdown Document
+---
+
+Hello! Welcome to this example Markdown documentation for Docusaurus!
+
+## Front Matter
+
+At the top of your markdown document, you may include metadata called
+[Front Matter](https://jekyllrb.com/docs/front-matter/). For example:
+
+```plaintext title="example-doc.md"
+// highlight-start
+---
+id: my-doc-id
+title: Example Document
+description: A document description
+slug: /custom-url
+---
+// highlight-end
+
+## Markdown heading
+
+Markdown text with [links](./hello.md)
+```
+
+## Headings
+
+Headings are creating using the # character to identify heading levels.
+
+```md
+
+## Heading 2
+
+### Heading 3
+
+```
+
+This creates:
+
+## Heading 2
+
+### Heading 3
+
+Headings also allow for easy direct linking to certain parts of a document, with 'Heading 6' for
+example allowing you to specify `www.mysite.com/docs/this-document` to
+`www.mysite.com/docs/this-document#heading-6`.
+
+## Links
+
+Regular Markdown links are supported, using url paths or relative file paths.
+
+If the current document is located in `mysite/docs/exampledocs/fun-document.md` these examples would
+link to the document `example-doc.md` within:
+
+`mysite/docs/example-doc.md`
+
+```md
+Find out more at [Example document](/example-doc.md).
+```
+
+`mysite/docs/exampledocs/example-doc.md`
+
+```md
+Find out more at [Example document](./example-doc.md).
+```
+
+Of course, you can also simple use a URL path instead of a relative file path:
+
+```md
+Find out more at [Example document](www.mysite.com/docs/example-doc)
+```
+
+## Lists
+
+Lists can be ordered or unordered depending on the bullet point used:
+
+```md
+- Eggs
+- Bacon
+- Cheese
+```
+
+This produces an unordered list.
+
+- Eggs
+- Bacon
+- Cheese
+
+```md
+1. Fry the egg.
+2. Add bacon.
+3. Shred cheese.
+```
+
+This produces an ordered list.
+
+1. Fry the egg.
+2. Add bacon.
+3. Shred cheese.
+
+Lists can also be nested.
+
+```md
+- Testing
+  1. Begin testing.
+  2. Finish testing.
+- Serving
+  - Always serve properly.
+  - Always serve thoughtfully.
+- Thinking
+```
+
+- Testing
+  1. Begin testing.
+  2. Finish testing.
+- Serving
+  - Always serve properly.
+  - Always serve thoughtfully.
+- Thinking
+
+## Images
+
+Regular Markdown images are supported, and follow this format:
+
+`![Image text](image-link.png)`
+
+For Docusaurus, images may be stored in the `static/img/` directory.
+
+## Code Blocks
+
+Markdown code blocks are supported with Syntax highlighting. Using the the backtick character, code
+can be provided as a block or inline.
+
+Blocks require specifying the code language, and can include a block title:
+
+```md title="welcome.md"
+# Welcome!
+
+Weclome to this markdown document!
+```
+
+```md title="welcome.md"
+# Welcome
+
+Welcome to this markdown document!
+```
+
+Inline:
+
+````txt
+This can be found in ```mysite/docs/welcome.md```.
+````
+
+This can be found in `mysite/docs/welcome.md`.
+
+## Admonitions
+
+Typical with knowledge base platforms, Docusaurus includes a special syntax to create admonitions
+and callouts:
+
+```md
+:::tip Tip
+
+This is a tip to help you out.
+
+:::
+
+:::caution Caution
+
+Be cautious around this item.
+
+:::
+
+:::danger Dangerous
+
+This action is dangerous.
+
+:::
+```
+
+:::tip Tip
+
+This is a tip to help you out.
+
+:::
+
+:::caution Caution
+
+Be cautious around this item.
+
+:::
+
+:::danger Dangerous
+
+This action is dangerous.
+
+:::
+
+## MDX and React Components
+
+[MDX](https://mdxjs.com/) allows for interactive elements within documentation through the use of
+React components:
+
+```jsx
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`)
+    }}>
+    {children}
+  </span>
+);
+
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+```
+
+Try it for yourself!
