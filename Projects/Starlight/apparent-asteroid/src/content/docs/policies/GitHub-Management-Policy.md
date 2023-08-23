@@ -14,12 +14,11 @@ repository.
 
 1. Navigate to the repository that you want to fork and locate Fork on the top right corner of the
    page.
-   <img src="/src/assets/git-tut-1.png"/>
 
 2. Click on Fork and you would be required to Choose an owner. This is usually your personal GitHub
    account, add a description if you wish and Create Fork.
 
-   <img src="/src/assets/git-tut-2.png"/>
+   <!-- <img src="/src/assets/git-tut-2.png"/> -->
 
 3. Once the Fork is completed, you should now see it as a repository in your personal GitHub account
    or whatever account you chose as the owner.
@@ -66,10 +65,8 @@ during code build. To achieve this, do the following.
 
 1. Locate and Click the Extensions icon on the navigation bar (usually located at the left side of
    your screen).
-   <img src="/src/assets/git-tut-3.png"/>
 
 2. Search for Prettier and follow the prompts to install it.
-<img src="/src/assets/git-tut-4.png"/>
 
 3. Follow the same process to search for and install Vale and Markdownlint.
 4. Navigate back to your terminal. To ensure that all the required modules is available on the copy
@@ -93,7 +90,8 @@ writing your document, follow these steps to prevent a failed check in GitHub.
 - On VS Code, locate the commit icon on the left navigation bar, type in a Commit message (you can
   adopt [Chris beam’s guide](https://cbea.ms/git-commit/) to create a good commit message), and
   commit the changes.
-  <img src="/src/assets/git-tut-5.png"/>
+
+  <!-- <img src="/src/assets/git-tut-5.png"/> -->
 
 ## Step 5: Create a Pull Request
 
@@ -103,7 +101,7 @@ writing your document, follow these steps to prevent a failed check in GitHub.
    request for the associated branch.
 4. Use the base branch dropdown menu to select the branch you'd like to merge your changes into,
    then use the compare branch drop-down menu to choose the topic branch you made your changes in.
-    <img src="/src/assets/git-tut-6.png"/>
+    <!-- <img src="/src/assets/git-tut-6.png"/> -->
 5. Type a title and description for your pull request.
 6. To create a pull request that is ready for review, click Create Pull Request. To create a draft
    pull request, use the drop-down and select Create Draft Pull Request, then click Draft Pull
