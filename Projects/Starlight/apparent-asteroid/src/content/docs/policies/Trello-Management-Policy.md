@@ -87,7 +87,7 @@ To add labels to your card, follow the steps below.
 
 - Locate and click on your Trello card.
 - From the side bar, select Labels and select the required color for the Sprint.
-- If you do not find the color you want, select "Create a new label" and type in the
-  color of choice.
+- If you do not find the color you want, select "Create a new label" and type in the color of
+  choice.
 - Next, click on the pencil symbol by the right of the color and update the label name to Sprint 1
   or whatever Sprint you are on.
