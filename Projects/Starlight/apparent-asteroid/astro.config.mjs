@@ -22,7 +22,7 @@ export default defineConfig({
             },
             {
               label: "Documentation",
-              autogenerate: { directory: "processes/documentation" },
+              autogenerate: { directory: "processes/Documentation" },
             },
             {
               label: "Quality Assurance",
@@ -59,6 +59,12 @@ export default defineConfig({
           label: "Reference",
           autogenerate: {
             directory: "reference",
+          },
+        },
+        {
+          label: "Policies",
+          autogenerate: {
+            directory: "policies",
           },
         },
         {
