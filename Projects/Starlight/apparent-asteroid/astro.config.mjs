@@ -85,19 +85,46 @@ export default defineConfig({
             {
               label: "CourseFlow",
               autogenerate: { directory: "products/courseflow" },
-            },
+            },   
+            // {
+            //   label: "OnTrack",
+            //   autogenerate: { directory: "products/ontrack" },
+
+            // },
             {
               label: "OnTrack",
-              autogenerate: { directory: "products/ontrack" },
+              items: [
+                {
+                  label: "Get to Know Us",
+                  link: "/products/ontrack/example",
+                },
+                {
+                  label: "Documentation",
+                  autogenerate: {
+                    directory: "products/ontrack/documentation",
+                  },
+                },
+                {
+                  label: "Issues and Resolutions",
+                  autogenerate: {
+                    directory: "products/ontrack/issues-and-resolution",
+                  },
+                },
+                // {label: "Deploy OnTrack Using Docker",
+                //   autogenerate: {
+                //     directory: "products/ontrack/front-end-migration/deploy-ontrack-using-docker",
+                //   },
+                // },
+              ],
             },
             {
               label: "SplashKit",
               autogenerate: { directory: "products/splashkit" },
             },
-          ],
-        },
-      ],
-    }),
+            ],
+          },
+        ],
+      }),
   ],
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: {
