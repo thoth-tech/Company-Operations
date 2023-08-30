@@ -6,6 +6,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Thoth Tech",
+      customCss:[
+        './src/styles/custom.css'
+      ],
       social: {
         github: "https://github.com/thoth-tech",
       },
@@ -22,7 +25,7 @@ export default defineConfig({
             },
             {
               label: "Documentation",
-              autogenerate: { directory: "processes/Documentation" },
+              autogenerate: { directory: "processes/documentation" },
             },
             {
               label: "Quality Assurance",
@@ -59,12 +62,6 @@ export default defineConfig({
           label: "Reference",
           autogenerate: {
             directory: "reference",
-          },
-        },
-        {
-          label: "Policies",
-          autogenerate: {
-            directory: "policies",
           },
         },
         {
@@ -106,3 +103,4 @@ export default defineConfig({
     },
   },
 });
+

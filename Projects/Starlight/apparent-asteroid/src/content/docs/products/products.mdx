@@ -5,27 +5,18 @@ description: Thoth Tech's latest and greatest
 
 import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
 
-<LinkCard
-  title="Ontrack"
-  description="an innovative Learning Management
-    System that is designed for a skill-based
-    course delivery model."
-  href="/products/ontrack/example/"
-/>
-<LinkCard
-  title="SplashKit"
-  description="a C++ Software Development Kit. It is
-    beginner-friendly to assist in introductory
-    programming education, and can be used
-    to create 2D games."
-  href="/products/splashkit/example/"
-/>
+
+<div class = 'artGallery'>
 <LinkCard
   title="Art Gallery"
   description="a digital art gallery platform for the
-    displaying and enjoying of art"
+    displaying and enjoying of art. One of our up and coming products. "
   href="/products/art-gallery/example/"
 />
+<img src="/src/assets/logos/artgallery.png" class= "pi"/>
+</div>
+
+<div class = 'courseFlow'>
 <LinkCard
   title="CourseFlow"
   description="This project aims to assists students and
@@ -34,6 +25,11 @@ import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
     certain courses"
   href="/products/courseflow/example/"
 />
+<img src="/src/assets/logos/courseflow.png" class = "pi"/>
+
+</div>
+
+<div class = 'operations'>
 <LinkCard
   title="Operations"
   description="a deticated team for monitoring the other
@@ -41,3 +37,29 @@ import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
     through research documentation."
   href="/products/company-operations/example/"
 />
+<img src="/src/assets/logos/operation.png" class = "pi"/>
+</div>
+
+<div class = 'ontrack'>
+<LinkCard
+  title="Ontrack"
+  description="an innovative Learning Management
+    System that is designed for a skill-based
+    course delivery model."
+  href="/products/ontrack/example/"
+/>
+<img src="/src/assets/logos/ontrack.png" class = "pi"/>
+</div>
+
+<div class = 'splashkit'>
+<LinkCard
+  title="SplashKit"
+  description="a C++ Software Development Kit. It is
+    beginner-friendly to assist in introductory
+    programming education, and can be used
+    to create 2D games."
+  href="/products/splashkit/example/"
+/>
+<img src="/src/assets/logos/splashkit.png" class="pi"/>
+</div>
+
