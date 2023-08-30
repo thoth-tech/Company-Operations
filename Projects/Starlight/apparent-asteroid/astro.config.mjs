@@ -6,9 +6,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Thoth Tech",
-      customCss:[
-        './src/styles/custom.css'
-      ],
+      customCss: ["./src/styles/custom.css"],
       social: {
         github: "https://github.com/thoth-tech",
       },
@@ -103,4 +101,3 @@ export default defineConfig({
     },
   },
 });
-
