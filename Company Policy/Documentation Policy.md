@@ -117,6 +117,6 @@ Also ensure you have markdown lint and Prettier installed in your machine / Visu
 Once you have done your documentation on the markdown file run the following checks i.e. format
 document with Markdown Lint and Prettier
 
-![formatwith1](/Company%20Policy/images/formatwith1.png)
+![formatwith1](/Company%20Policy/images/formatwith.png)
 
 ![formatwith2](/Company%20Policy/images/formatwith2.png)
