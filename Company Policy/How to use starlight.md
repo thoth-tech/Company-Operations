@@ -46,7 +46,7 @@ reflected on the page as well
 ![star7](/Company%20Policy/images/star7.png)
 
 There is already a documentation website created as part of Company Operation project which can be
-accessed \[here\](https://main--stunning-speculoos-7350f4.netlify.app/)
+accessed [here](https://main--stunning-speculoos-7350f4.netlify.app/)
 
 On the Thoth Tech documentation website below is the landing page
 
