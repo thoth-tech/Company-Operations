@@ -54,10 +54,13 @@ Resources: Basics of HTML and CSS, from MDN Web Docs or you can refer to w3schoo
 Understand how to select HTML elements using JavaScript selectors such as getElementById,
 querySelector, and querySelectorAll.
 
-Example for getElementByID getElementByID_image2
+Example for getElementByID
+
 ![getElementByID_image2](./images//getElementByID_image2.png)
 
-Example for querySelector ![querySelector_images3.png](./images/querySelector_image3.png)
+Example for querySelector
+
+![querySelector_images3.png](./images/querySelector_image3.png)
 
 Modifying CSS Properties
 
@@ -121,7 +124,7 @@ Angular CSS clause
 You can integrate Bootstrap with Angular simply by installing Bootstrap package using below code.
 Then you can add bootstrap CSS and Javascript in your projects **npm install bootstrap**
 
-**Additional resources:**
+Additional resources:
 
 - [Angular Documentation](https://angular.io/docs)
 
@@ -150,22 +153,24 @@ Ensure that before you begin, make sure you have the following prerequisites in 
 
 - A code editor of your choice (e.g., Visual Studio Code)
 
-**Setting up TypeScript:**
+Setting up TypeScript:
 
 To use TypeScript for CSS, you need to set up a TypeScript project. Here's how:
 
-![type_image5](./images/type_image5.png) **Creating a TypeScript CSS File:**
+![type_image5](./images/type_image5.png) 
+
+Creating a TypeScript CSS File:
 
 In your project directory, create a TypeScript (.ts) file for your CSS. For example, create a file
 named ‘styles.ts’
 
-**Writing TypeScript for CSS:**
+Writing TypeScript for CSS:
 
 In styles.ts, you can define your styles using TypeScript. Here's an example:
 
 ![type2_image6](./images/type2_image6.png)
 
-**Compiling TypeScript CSS:**
+Compiling TypeScript CSS:
 
 - To compile your TypeScript CSS into regular CSS, you can use the tsc command.
 - Create a "tsconfig.json" file in your project directory if you haven't already. Configure it to
@@ -177,9 +182,10 @@ Compiled CSS will be in the ‘dist’ directory.
 
 Integrating with Your Web Project:
 
-Link the compiled CSS in your HTML file: ![type3_image8](./images/type3_image8.png)
+Link the compiled CSS in your HTML file:
+![type3_image8](./images/type3_image8.png)
 
-**Best Practices:**
+Best Practices:
 
 Use TypeScript types for CSS properties to ensure type safety.
 
@@ -209,7 +215,8 @@ styles and components.
   Visit the Material Design CSS website to download the latest version of the library. Download the
   CSS file to your project directory.
 
-- **Usage of Material Library** Linking Material CSS: In your HTML file, link the Material CSS
+- **Usage of Material Library**
+- Linking Material CSS: In your HTML file, link the Material CSS
   library by adding the following line within the \<head\> section example is as below:
   ![ML_image9](./images/ML_image9.png)
 
@@ -217,12 +224,14 @@ styles and components.
 
 - Applying Material Styles: You can now apply Material styles to your HTML elements by adding
   appropriate class names. For example, to create a Material Design button, use the ‘mdc-button’
-  class: ![ML1_image10](./images/ML1_image10.png)
+  class:
+  ![ML1_image10](./images/ML1_image10.png)
 
 Using Typography Classes
 
 Material CSS provides typography classes for easy text styling. Apply classes like
-mdc-typography--headline6 to format text elements: ![ML2_image11](./images/ML2_image11.png)
+mdc-typography--headline6 to format text elements:
+![ML2_image11](./images/ML2_image11.png)
 
 Custom Typography
 
@@ -277,7 +286,7 @@ Developers may easily create user interfaces using the highly configurable CSS f
 Tailwind CSS. It focuses on offering a collection of compact, special-purpose classes that may be
 combined to quickly construct intricate layouts and patterns.
 
-**Why Utilise Tailwind CSS?**
+Why Utilise Tailwind CSS?
 
 Rapid Development: By eliminating the need to develop bespoke CSS, Tailwind CSS enables you to build
 websites and applications more quickly.
@@ -303,19 +312,25 @@ Adding Tailwind CSS to Your HTML
 
 Include the Tailwind CSS styles in your HTML file by linking to the generated CSS file (usually
 named styles.css) in your project's public or dist directory. Make sure to add this link in the
-\<head\> section of your HTML file: ![TW2_image19](./images/TW2_image19.png)
+\<head\> section of your HTML file: 
+![TW2_image19](./images/TW2_image19.png)
 
 Using Utility Classes
 
 You can apply styles to your HTML elements by adding Tailwind CSS utility classes directly to your
-HTML markup. For example: ![TW3_image20](./images/TW3_image20.png)
+HTML markup. For example:
+![TW3_image20](./images/TW3_image20.png)
 
-**Customizing Tailwind CSS** Tailwind CSS is highly customizable. You can modify the default
+Customizing Tailwind CSS
+
+Tailwind CSS is highly customizable. You can modify the default
 configuration by editing the ‘tailwind.config.js’ file in your project. Refer to the official
 documentation for details on customization:
 [Tailwind CSS Customization](https://tailwindcss.com/docs/configuration).
 
-**Components and Plugins:** Tailwind CSS includes a set of pre-designed components like modals,
+Components and Plugins
+
+Tailwind CSS includes a set of pre-designed components like modals,
 popovers, and tooltips. You can easily integrate these components into your project. Refer to the
 documentation for component usage:
 [Tailwind CSS Components](https://tailwindcss.com/docs/components).
@@ -324,6 +339,8 @@ Tailwind CSS has a plugin ecosystem that extends its functionality. You can find
 for various purposes, such as typography and forms. Explore available plugins here:
 [Tailwind CSS Plugins](https://tailwindcss.com/docs/plugins).
 
-**Additional Resources** [Tailwind CSS Official Documentation](https://tailwindcss.com/docs)
-[Tailwind CSS GitHub Repository](https://github.com/tailwindcss/tailwindcss)
-[Tailwind CSS Community](https://tailwindcss.com/community).
+Additional Resources
+- [Tailwind CSS Official Documentation](https://tailwindcss.com/docs)
+- [Tailwind CSS GitHub Repository](https://github.com/tailwindcss/tailwindcss)
+- [Tailwind CSS Community](https://tailwindcss.com/community).
+  
