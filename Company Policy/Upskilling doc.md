@@ -157,7 +157,7 @@ Setting up TypeScript:
 
 To use TypeScript for CSS, you need to set up a TypeScript project. Here's how:
 
-![type_image5](./images/type_image5.png) 
+![type_image5](./images/type_image5.png)
 
 Creating a TypeScript CSS File:
 
@@ -182,8 +182,7 @@ Compiled CSS will be in the ‘dist’ directory.
 
 Integrating with Your Web Project:
 
-Link the compiled CSS in your HTML file:
-![type3_image8](./images/type3_image8.png)
+Link the compiled CSS in your HTML file: ![type3_image8](./images/type3_image8.png)
 
 Best Practices:
 
@@ -216,22 +215,19 @@ styles and components.
   CSS file to your project directory.
 
 - **Usage of Material Library**
-- Linking Material CSS: In your HTML file, link the Material CSS
-  library by adding the following line within the \<head\> section example is as below:
-  ![ML_image9](./images/ML_image9.png)
+- Linking Material CSS: In your HTML file, link the Material CSS library by adding the following
+  line within the \<head\> section example is as below: ![ML_image9](./images/ML_image9.png)
 
 - Replace "path/to/material.css" with the actual path to the downloaded CSS file.
 
 - Applying Material Styles: You can now apply Material styles to your HTML elements by adding
   appropriate class names. For example, to create a Material Design button, use the ‘mdc-button’
-  class:
-  ![ML1_image10](./images/ML1_image10.png)
+  class: ![ML1_image10](./images/ML1_image10.png)
 
 Using Typography Classes
 
 Material CSS provides typography classes for easy text styling. Apply classes like
-mdc-typography--headline6 to format text elements:
-![ML2_image11](./images/ML2_image11.png)
+mdc-typography--headline6 to format text elements: ![ML2_image11](./images/ML2_image11.png)
 
 Custom Typography
 
@@ -312,27 +308,23 @@ Adding Tailwind CSS to Your HTML
 
 Include the Tailwind CSS styles in your HTML file by linking to the generated CSS file (usually
 named styles.css) in your project's public or dist directory. Make sure to add this link in the
-\<head\> section of your HTML file: 
-![TW2_image19](./images/TW2_image19.png)
+\<head\> section of your HTML file: ![TW2_image19](./images/TW2_image19.png)
 
 Using Utility Classes
 
 You can apply styles to your HTML elements by adding Tailwind CSS utility classes directly to your
-HTML markup. For example:
-![TW3_image20](./images/TW3_image20.png)
+HTML markup. For example: ![TW3_image20](./images/TW3_image20.png)
 
 Customizing Tailwind CSS
 
-Tailwind CSS is highly customizable. You can modify the default
-configuration by editing the ‘tailwind.config.js’ file in your project. Refer to the official
-documentation for details on customization:
-[Tailwind CSS Customization](https://tailwindcss.com/docs/configuration).
+Tailwind CSS is highly customizable. You can modify the default configuration by editing the
+‘tailwind.config.js’ file in your project. Refer to the official documentation for details on
+customization: [Tailwind CSS Customization](https://tailwindcss.com/docs/configuration).
 
 Components and Plugins
 
-Tailwind CSS includes a set of pre-designed components like modals,
-popovers, and tooltips. You can easily integrate these components into your project. Refer to the
-documentation for component usage:
+Tailwind CSS includes a set of pre-designed components like modals, popovers, and tooltips. You can
+easily integrate these components into your project. Refer to the documentation for component usage:
 [Tailwind CSS Components](https://tailwindcss.com/docs/components).
 
 Tailwind CSS has a plugin ecosystem that extends its functionality. You can find and install plugins
@@ -340,7 +332,7 @@ for various purposes, such as typography and forms. Explore available plugins he
 [Tailwind CSS Plugins](https://tailwindcss.com/docs/plugins).
 
 Additional Resources
+
 - [Tailwind CSS Official Documentation](https://tailwindcss.com/docs)
 - [Tailwind CSS GitHub Repository](https://github.com/tailwindcss/tailwindcss)
 - [Tailwind CSS Community](https://tailwindcss.com/community).
-  
