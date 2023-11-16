@@ -1,4 +1,4 @@
-# Trello Task Added for Sprint 1 ( 6- Nov - 18 Nov, 2023)
+# Trello Task Added for Sprint 1 ( 6 Nov - 18 Nov, 2023)
 
 This document outlines the tasks I created on Trello for Sprint 1 (Week - Week2) to enable the
 company kickstart its operations and provide students with ways to contribute effectively.
