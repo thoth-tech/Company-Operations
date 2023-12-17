@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<script src="bigthings.js"></script>
+<html>
+  <div>
+    <button
+      type="button"
+      onclick="document.getElementById('ontrack').innerHTML = 'Otrack value: ' + ontrack;"
+    >
+      Test output ontrack
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('co').innerHTML = 'CO value: ' +  companyOps;"
+    >
+      Test output CO
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('splashkit').innerHTML = 'SplashKit value: ' + splashkit;"
+    >
+      Test output SplashKit
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('artGallery').innerHTML =  'art gallery value: ' +  artGallery;"
+    >
+      Test output art gallery
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('courseFlow').innerHTML =  'courseFlow value: ' +  courseFlow;"
+    >
+      Test output courseFlow
+    </button>
+  </div>
+</html>
+<div>
+  <p id="ontrack"></p>
+  <p id="co"></p>
+  <p id="splashkit"></p>
+  <p id="artGallery"></p>
+  <p id="courseFlow"></p>
+</div>
+
+<!--reminder of args order: id, ot, co, sk, ag, cf. PLS keep the buttons in numbered order to cut down on confusion-->
+
+<!--
+<div>
+  <h1>General areas of interest</h1>
+  <button class="toggle" id="button0" onclick="toggleButton(0,1,0,0,1,1)">
+    Front end development
+  </button>
+  <button class="toggle" id="button1" onclick="toggleButton(1,1,0,0,1,1)">
+    Back end development
+  </button>
+  <button class="toggle" id="button2" onclick="toggleButton(2,0,1,1,0,0)">
+    Documentation
+  </button>
+  <button class="toggle" id="button3" onclick="toggleButton(3,0,0,1,0,0)">
+    Software development
+  </button>
+</div>
+-->
+<body onload="printButton();"></body>
